@@ -1,4 +1,4 @@
-#include <bits
+#include <bits/stdc++.h>
 using namespace std;
 
 bool isBalanced(const string& expr) {
@@ -9,19 +9,19 @@ bool isBalanced(const string& expr) {
             s.push(ch);
         } else if (ch == ')') {
             if (s.empty()) {
-                return false; // No matching '('
+                return false; 
             }
             s.pop();
         }
     }
 
-    return s.empty(); // True if all '(' have matching ')'
+    return s.empty(); 
 }
 
 int main() {
     string expression;
     cout << "Enter an expression: ";
-    getline(cin, expression); // Reads full line including spaces
+    getline(cin, expression); 
 
     if (isBalanced(expression)) {
         cout << "Correct" << endl;
