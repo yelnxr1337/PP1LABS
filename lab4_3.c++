@@ -13,4 +13,5 @@ int main(){
     for(map<string, int>::iterator it = mp.begin(); it!=mp.end(); it++){
         cout<<it->first<<"->"<<it->second<<'\n';
     }
+    return 0;
 }
