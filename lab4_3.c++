@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
     map<string, int>mp;
-    string str = "This is a test this is only a test";
+    string str = "this is a test this is only a test";
     stringstream ss(str);
     string s;
 
