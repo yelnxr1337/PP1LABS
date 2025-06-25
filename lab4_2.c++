@@ -24,5 +24,4 @@ int main(){
     } else {
         cout << q<<"is NOT in the set\n";
     }
-    return 0;
-}
+    }
